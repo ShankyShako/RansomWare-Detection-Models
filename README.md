@@ -2,7 +2,7 @@ RansomwareData extracted from [https://github.com/rissgrouphub/ransomwaredataset
 Contains both binary and 12 set Family Classifications, 0 being Benign and 1-11 being not Benign
 
 FAMILY NAME          ID
-------------------------------
+
 Goodware              0
 'Critroni'            1
 'CryptLocker'         2
