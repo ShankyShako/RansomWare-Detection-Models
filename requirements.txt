@@ -1,0 +1,19 @@
+# Core data / ML stack for the ransomware-detection notebooks.
+# Versions reflect the environment the notebooks were developed against
+# (originally Google Colab). Loosen or pin as needed for your setup.
+
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.1
+matplotlib>=3.6
+seaborn>=0.12
+
+# Deep-learning backends
+tensorflow>=2.10
+torch>=1.12
+
+# Transformer models (ALBERT, RoBERTa)
+transformers>=4.20
+
+# Notebook runtime
+jupyter

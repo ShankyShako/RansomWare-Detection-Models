@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "n_features_in": 30967,
+    "n_features_out": 1000
+  },
+  "levels": {
+    "binary": {
+      "RandomForest": {
+        "accuracy": 0.977,
+        "macro_f1": 0.9758,
+        "seconds": 0.4
+      },
+      "LogisticRegression": {
+        "accuracy": 0.9836,
+        "macro_f1": 0.9826,
+        "seconds": 0.0
+      },
+      "MLP (deep net)": {
+        "accuracy": 0.9738,
+        "macro_f1": 0.9722,
+        "seconds": 0.5
+      },
+      "DNN (PyTorch)": {
+        "accuracy": 0.9836,
+        "macro_f1": 0.9825
+      },
+      "CNN (PyTorch)": {
+        "accuracy": 0.9377,
+        "macro_f1": 0.9346
+      },
+      "Transformer/RoBERTa (PyTorch)": {
+        "accuracy": 0.9803,
+        "macro_f1": 0.979
+      },
+      "ALBERT (PyTorch)": {
+        "accuracy": 0.9639,
+        "macro_f1": 0.9614
+      }
+    },
+    "group": {
+      "RandomForest": {
+        "accuracy": 0.8984,
+        "macro_f1": 0.7119,
+        "seconds": 0.4
+      },
+      "LogisticRegression": {
+        "accuracy": 0.8885,
+        "macro_f1": 0.686,
+        "seconds": 0.1
+      },
+      "MLP (deep net)": {
+        "accuracy": 0.9115,
+        "macro_f1": 0.7312,
+        "seconds": 0.7
+      },
+      "DNN (PyTorch)": {
+        "accuracy": 0.8852,
+        "macro_f1": 0.6824
+      },
+      "CNN (PyTorch)": {
+        "accuracy": 0.8164,
+        "macro_f1": 0.6105
+      },
+      "Transformer/RoBERTa (PyTorch)": {
+        "accuracy": 0.8525,
+        "macro_f1": 0.6216
+      },
+      "ALBERT (PyTorch)": {
+        "accuracy": 0.8623,
+        "macro_f1": 0.6464
+      }
+    }
+  },
+  "generated_at": "2026-07-17T19:47:32"
+}
